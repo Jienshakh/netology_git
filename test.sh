@@ -12,3 +12,5 @@ cat /etc/*rel* | grep "DISTRIB_RELEASE" | cut -d "=" -f2
 
 echo "DISTRIB_CODENAME:"
 cat /etc/*rel* | grep "DISTRIB_CODENAME" | cut -d "=" -f2
+
+echo "See you World!"
